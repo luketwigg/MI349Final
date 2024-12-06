@@ -30,7 +30,7 @@
     color: #005534;
 }
 
-.eduvacation-circle-2 {
+.logo {
     position: absolute;
     top: 177px;
     left: 161px;
@@ -38,7 +38,7 @@
     height: 378px;
     object-fit: cover;
 }
-.eduvacation-circle-3 {
+.logo-bar {
     position: absolute;
     top: 20px;
     left: 57px;
@@ -48,7 +48,7 @@
     border-radius: 50%;
 }
 
-.eduvacation-link {
+.logo-link {
     display: inline-block;
     text-decoration: none;
 }
@@ -64,7 +64,7 @@
     height: 116px;
 }
 
-.eduvacation1 {
+.eduvacation-bar {
     position: absolute;
     top: 46px;
     left: 175px;
@@ -75,7 +75,7 @@
     height: 40px;
 }
 
-.eduvacation1 a {
+.eduvacation-bar a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -89,11 +89,11 @@
     justify-content: center;
 }
 
-.eduvacation1 a:hover {
+.eduvacation-bar a:hover {
     color: #005534;
 }
 
-.affordable-traveling-for {
+.slogan {
     position: absolute;
     top: 398px;
     left: calc(50% - 54px);
@@ -118,7 +118,7 @@
     width: 541px;
     height: 110px;
 }
-.book-now {
+.book-homepage {
     position: absolute;
     top: 577px;
     left: 851px;
@@ -130,7 +130,7 @@
     height: 66px;
 }
 
-.book-now a {
+.book-homepage a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -138,11 +138,11 @@
     display: inline-block;
 }
 
-.book-now a:hover {
+.book-homepage a:hover {
     color: #005534;
 }
 
-.about-us {
+.about-homepage {
     position: absolute;
     top: 789px;
     left: 851px;
@@ -154,7 +154,7 @@
     height: 66px;
 }
 
-.about-us a {
+.about-homepage a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -162,7 +162,7 @@
     display: inline-block;
 }
 
-.about-us a:hover {
+.about-homepage a:hover {
     color: #005534;
 }
 
@@ -212,7 +212,7 @@
     color: #005534;
 }
 
-.do-you-want {
+.homepage-para {
     position: absolute;
     top: 614px;
     left: 103px;
