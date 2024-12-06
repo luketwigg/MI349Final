@@ -6,7 +6,7 @@
     width: 1440px;
     height: 119px;
 }
-.profile {
+.book-now-nav {
     position: absolute;
     top: 46px;
     left: 1188px;
@@ -16,6 +16,20 @@
     width: 209px;
     height: 40px;
 }
+
+.book-now-nav a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.book-now-nav a:hover {
+    color: #A9A9A9;
+}
+
 .eduvacation-circle-2 {
     position: absolute;
     top: 177px;
@@ -86,6 +100,19 @@
     width: 362px;
     height: 66px;
 }
+
+.book-now a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.book-now a:hover {
+    color: #A9A9A9;
+}
+
 .about-us {
     position: absolute;
     top: 789px;
@@ -97,6 +124,19 @@
     width: 362px;
     height: 66px;
 }
+
+.about-us a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.about-us a:hover {
+    color: #A9A9A9;
+}
+
 .home {
     position: absolute;
     top: 46px;
@@ -107,6 +147,19 @@
     width: 209px;
     height: 40px;
 }
+
+.home a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.home a:hover {
+    color: #A9A9A9;
+}
+
 .about-us1 {
     position: absolute;
     top: 46px;
@@ -117,6 +170,19 @@
     width: 209px;
     height: 40px;
 }
+
+.about-us1 a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.about-us1 a:hover {
+    color: #A9A9A9;
+}
+
 .do-you-want {
     position: absolute;
     top: 614px;
@@ -136,4 +202,3 @@
     color: #000;
     font-family: Piedra;
 }
-
