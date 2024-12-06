@@ -6,7 +6,7 @@
     width: 1440px;
     height: 119px;
 }
-.book-now-nav {
+.q-a-bar {
     position: absolute;
     top: 46px;
     left: 1188px;
@@ -17,7 +17,7 @@
     height: 40px;
 }
 
-.book-now-nav a {
+.q-a-bar a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.book-now-nav a:hover {
+.q-a-bar a:hover {
     color: #005534;
 }
 
@@ -59,6 +59,7 @@
     left: calc(50% - 54px);
     font-size: 90px;
     display: inline-block;
+    justify-content: center;
     width: 731px;
     height: 116px;
 }
@@ -165,7 +166,7 @@
     color: #005534;
 }
 
-.home {
+.home-bar {
     position: absolute;
     top: 46px;
     left: 823px;
@@ -176,7 +177,7 @@
     height: 40px;
 }
 
-.home a {
+.home-bar a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -184,11 +185,11 @@
     display: inline-block;
 }
 
-.home a:hover {
+.home-bar a:hover {
     color: #005534;
 }
 
-.about-us1 {
+.about-us-bar {
     position: absolute;
     top: 46px;
     left: 1004px;
@@ -199,7 +200,7 @@
     height: 40px;
 }
 
-.about-us1 a {
+.about-us-bar a {
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
@@ -207,7 +208,7 @@
     display: inline-block;
 }
 
-.about-us1 a:hover {
+.about-us-bar a:hover {
     color: #005534;
 }
 
