@@ -1,0 +1,139 @@
+.home-page-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f1c89a;
+    width: 1440px;
+    height: 119px;
+}
+.profile {
+    position: absolute;
+    top: 46px;
+    left: 1188px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 40px;
+}
+.eduvacation-circle-2 {
+    position: absolute;
+    top: 177px;
+    left: 161px;
+    width: 409px;
+    height: 378px;
+    object-fit: cover;
+}
+.eduvacation-circle-3 {
+    position: absolute;
+    top: 29px;
+    left: 57px;
+    width: 84px;
+    height: 75px;
+    object-fit: cover;
+}
+.eduvacation {
+    position: absolute;
+    top: 241px;
+    left: calc(50% - 54px);
+    font-size: 90px;
+    display: inline-block;
+    width: 731px;
+    height: 116px;
+}
+.eduvacation1 {
+    position: absolute;
+    top: 32px;
+    left: calc(50% - 640px);
+    font-size: 50px;
+    display: inline-block;
+    width: 470px;
+    height: 68px;
+}
+.affordable-traveling-for {
+    position: absolute;
+    top: 398px;
+    left: calc(50% - 54px);
+    font-size: 40px;
+    display: inline-block;
+    width: 731px;
+    height: 116px;
+}
+.home-page-item {
+    position: absolute;
+    top: 767px;
+    left: 761px;
+    background-color: #f1c89a;
+    width: 541px;
+    height: 110px;
+}
+.home-page-inner {
+    position: absolute;
+    top: 555px;
+    left: 761px;
+    background-color: #f1c89a;
+    width: 541px;
+    height: 110px;
+}
+.book-now {
+    position: absolute;
+    top: 577px;
+    left: 851px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 362px;
+    height: 66px;
+}
+.about-us {
+    position: absolute;
+    top: 789px;
+    left: 851px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 362px;
+    height: 66px;
+}
+.home {
+    position: absolute;
+    top: 46px;
+    left: 823px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 40px;
+}
+.about-us1 {
+    position: absolute;
+    top: 46px;
+    left: 1004px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 40px;
+}
+.do-you-want {
+    position: absolute;
+    top: 614px;
+    left: 103px;
+    display: inline-block;
+    width: 525px;
+    height: 316px;
+}
+.home-page {
+    width: 100%;
+    position: relative;
+    background-color: #f9f6ef;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Piedra;
+}
+
