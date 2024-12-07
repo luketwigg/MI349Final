@@ -3,7 +3,7 @@
     top: 0px;
     left: 0px;
     background-color: #f1c89a;
-    width: 1440px;
+    width: 100%;
     height: 119px;
 }
 .q-a-bar {
@@ -248,18 +248,6 @@
     position: relative;
     background-color: #f9f6ef;
     height: 1024px;
-    overflow: hidden;
-    text-align: center;
-    font-size: 30px;
-    color: #000;
-    font-family: Piedra;
-}
-
-.about-page {
-    width: 100%;
-    position: relative;
-    background-color: #f9f6ef;
-    overflow: hidden;
     text-align: center;
     font-size: 30px;
     color: #000;
@@ -275,17 +263,36 @@
 }
 
 .about-us-content h1 {
-    margin-top: 70px;
+    bottom: 10px;
+    margin: 70px;
     text-align: center;
     font-size: 48px;
     font-family: 'Piedra', cursive;
     margin-bottom: 50px;
 }
 
+.about-us-content h3 {
+    bottom: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Piedra', cursive;
+    margin-bottom: 10px;
+}
+
+.about-us-content h4 {
+    bottom: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Piedra', cursive;
+    margin-bottom: 10px;
+}
+
 .about-us-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
     margin-bottom: 40px;
 }
@@ -294,14 +301,15 @@
     flex-direction: row-reverse;
 }
 
-.about-us-content img {
-    width: 45%;
+.about-us-section img {
+    width: 40%;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
+    border: 2px solid #005534
 }
 
-.about-us-content p {
+.about-us-section .text {
     width: 50%;
     font-size: 20px;
     font-family: 'Piedra', cursive;
@@ -314,6 +322,14 @@
     font-size: 30px;
     font-family: 'Piedra', cursive;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.divider-line {
+    width: 100%;
+    height: 5px;
+    background-color: #005534;
+    margin-top: 50px;
 }
 
 .map-content h1 {
@@ -322,3 +338,91 @@
     font-size: 48px;
     font-family: 'Piedra', cursive;
     margin-bottom: 50px;
+}
+
+.q-a-content h1 {
+    margin: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Piedra', cursive;
+    margin-bottom: 50px;
+}
+
+.q-a-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.q-a-column {
+    flex: 1;
+}
+
+.q-a-center-column {
+    flex: 2;
+    text-align: center;
+}
+
+.q-a-title {
+    font-family: 'Piedra', cursive;
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.q-a-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.q-a-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #005534;
+    border-radius: 5px;
+    font-family: 'Piedra', cursive;
+}
+
+.q-a-select {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #005534;
+    border-radius: 5px;
+    font-family: 'Piedra', cursive;
+    background-color: white;
+}
+
+.q-a-form input, .q-a-form select {
+    margin-bottom: 20px;
+}
+
+.q-a-input:hover, .q-a-select:hover {
+    border-color: #005534;
+}
+
+.q-a-center-column {
+    max-width: 600px;
+}
+
+.q-a-submit {
+    padding: 20px 40px;
+    font-size: 25px;
+    background-color: #005534;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Piedra', cursive;
+    transition: background-color 0.3s;
+    margin: 25px;
+}
+
+.q-a-submit:hover {
+    background-color: #003f27;
+}
