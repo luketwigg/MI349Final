@@ -9,7 +9,7 @@
 .q-a-bar {
     position: absolute;
     top: 46px;
-    left: 1188px;
+    left: 1215px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
     text-align: center;
 }
@@ -169,7 +169,7 @@
 .home-bar {
     position: absolute;
     top: 46px;
-    left: 823px;
+    left: 792px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
 }
 
@@ -189,10 +189,33 @@
     color: #005534;
 }
 
+.map-bar {
+    position: absolute;
+    top: 46px;
+    left: 1084px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 209px;
+    height: 40px;
+}
+
+.map-bar a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Piedra', cursive;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.map-bar a:hover {
+    color: #005534;
+}
+
 .about-us-bar {
     position: absolute;
     top: 46px;
-    left: 1004px;
+    left: 933px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,7 +227,7 @@
     text-decoration: none;
     color: inherit;
     font-family: 'Piedra', cursive;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
 }
 
