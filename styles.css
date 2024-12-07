@@ -254,3 +254,53 @@
     color: #000;
     font-family: Piedra;
 }
+
+
+.about-us-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Piedra', cursive;
+    margin-bottom: 50px;
+}
+
+.about-us-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.about-us-section:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.about-us-section img {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-us-section p {
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Piedra', cursive;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.about-us-section h2 {
+    font-size: 28px;
+    font-family: 'Piedra', cursive;
+    margin-bottom: 20px;
+}
