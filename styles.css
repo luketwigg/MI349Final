@@ -4,6 +4,7 @@
     left: 0px;
     background-color: #f1c89a;
     width: 100%;
+    overflow: visable;
     height: 119px;
 }
 .q-a-bar {
@@ -341,7 +342,7 @@
 }
 
 .q-a-content h1 {
-    margin: 50px;
+    margin-top: 100px;
     text-align: center;
     font-size: 48px;
     font-family: 'Piedra', cursive;
@@ -368,7 +369,7 @@
 .q-a-title {
     font-family: 'Piedra', cursive;
     font-size: 48px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
