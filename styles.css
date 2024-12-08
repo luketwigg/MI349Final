@@ -3,7 +3,7 @@
     top: 0px;
     left: 0px;
     background-color: #f1c89a;
-    width: 100%;
+    width: 1444px;
     overflow: visable;
     height: 119px;
 }
@@ -245,10 +245,10 @@
     height: 316px;
 }
 .home-page {
-    width: 100%;
+    width: 1444px;
     position: relative;
     background-color: #f9f6ef;
-    height: 1024px;
+    height: 100%;
     text-align: center;
     font-size: 30px;
     color: #000;
@@ -339,7 +339,7 @@
     text-align: center;
     font-size: 48px;
     font-family: 'Piedra', cursive;
-    margin-bottom: 50px;
+    margin-bottom: 1024px;
 }
 
 .q-a-content h1 {
