@@ -57,7 +57,7 @@
 .eduvacation {
     position: absolute;
     top: 241px;
-    left: calc(50% - 54px);
+    left: 660px;
     font-size: 90px;
     display: inline-block;
     justify-content: center;
@@ -97,7 +97,7 @@
 .slogan {
     position: absolute;
     top: 398px;
-    left: calc(50% - 54px);
+    left: 660px;
     font-size: 40px;
     display: inline-block;
     width: 731px;
@@ -253,6 +253,7 @@
     font-size: 30px;
     color: #000;
     font-family: Piedra;
+    overflow: visable;
 }
 
 .about-us-content {
