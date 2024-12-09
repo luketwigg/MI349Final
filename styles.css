@@ -246,6 +246,19 @@
     width: 525px;
     height: 316px;
 }
+
+.home-page-unique {
+    width: 1444px;
+    position: absolute;
+    background-color: #f9f6ef;
+    height: 1028px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-family: Piedra;
+    overflow: visable;
+}
+
 .home-page {
     width: 1444px;
     position: relative;
@@ -499,4 +512,63 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 820px) {
+    .about-us-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-us-section:nth-of-type(even) {
+        flex-direction: column;
+    }
+
+    .about-us-section img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .about-us-section .text {
+        width: 50%;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about-us-content h1 {
+        font-size: 36px;
+    }
+
+    .about-us-content h2 {
+        font-size: 28px;
+    }
+
+    .about-us-content h3 {
+        font-size: 28px;
+    }
+
+    .about-us-content h4 {
+        font-size: 18px;
+    }
+
+    .home-bar {
+        left: calc(792px - 200px);
+    }
+
+    .map-bar {
+        left: calc(1084px - 200px);
+    }
+
+    .about-us-bar {
+        left: calc(933px - 200px);
+    }
+
+    .q-a-bar {
+        left: calc(1215px - 200px);
+    }
+
 }
